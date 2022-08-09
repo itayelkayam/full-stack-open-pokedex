@@ -12,3 +12,10 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
+      - name: make a new file
+        run: |
+          echo "new file!" > new.txt
+      - name: date & list directory
+        run: |
+          date
+          ls -la
